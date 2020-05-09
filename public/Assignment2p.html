@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="Assignment2p.css" type="text/css">
+</head>
+
+<body>
+
+    <img src="saylani-welfare.jpg" alt="Saylani Wefare International Trust">
+    <h1 id="mainheading"> student registration form </h1>
+    <form action="httt://www.example.com/login.php" method="post">
+
+        <div>
+
+            <p><label for="firstName"> FIRST NAME </label>
+                <input type="text" name="firstName" id="firstName" placeholder="Enter Your First Name"> (max 30
+                characters a-z and A-Z) </p><br>
+            <p><label for="lastName"> LAST NAME </label>
+                <input type="text" name="lastName" id="lastName" placeholder="Enter Your Last Name"> (max 30 characters
+                a-z and A-Z)</p>
+        </div>
+
+        <div>
+            <label for="dob">DATE OF BIRTH</label>
+            <input type="date" name="dob" id="dob" size="30"> <br> <br>
+        </div>
+
+        <div>
+            <label for="email"> EMAIL ID </label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email Address"><br> <br>
+            <p><label for="contactNo"> MOBILE NUMBER </label>
+                <input type="number" name="contactNo" id="contactNo" placeholder="Enter Your Mobile Number"> (10 Digit
+                Number)</p>
+        </div>
+   
+        <div id="bgender">
+                    <label> GENDER </label>
+                    <label for="male" style="text-align: center">Male</label>
+                    <input type="radio" name="gender" id="male" value="male" style="margin-left: -50px;">
+                    <label for="female" style="text-align: center">Female</label>
+                    <input type="radio" name="gender" id="female" value="female" style="margin-left: -40px;">
+        </div>
+
+        <div>   
+                    <label for="address" style="vertical-align: top;">ADDRESS</label>
+                    <textarea name="address" id="address" cols="50" rows="6"
+                        placeholder="Enter Your Address"></textarea>
+        </div>
+
+        <div>
+                    <p><label for="city"> CITY </label>
+                        <input type="text" name="city" id="city" placeholder="Enter Your City Name"> (max 30 characters
+                        a-z and A-Z) </p><br>
+                    <p><label for="pin"> PIN CODE </label>
+                        <input type="text" name="pincode" id="pincode" placeholder="Enter Pin Code"> (6 Digit Number)
+                    </p><br>
+                    <p><label for="state"> STATE </label>
+                        <input type="text" name="state" id="state" placeholder="Enter Your State Name"> (max 30
+                        characters a-z and A-Z) </p><br>
+                    <p><label for="lastName"> COUNTRY </label>
+                        <input type="text" name="country" id="country" placeholder="Enter Your Country Name"> </p><br>
+        </div>
+
+        <div>
+                    <label> HOBBIES </label>
+                    <input type="checkbox" name="hobby" value="drawing"> Drawing
+                    <input type="checkbox" name="hobby" value="singing"> Singing
+                    <input type="checkbox" name="hobby" value="dancing"> Dancing
+                    <input type="checkbox" name="hobby" value="sketching"> Sketching 
+                    <br><br><input type="checkbox" name="hobby" value="" style="margin-left: 204px;"> Others
+                    <input type="text" name="others">
+        </div>
+
+        <div>
+                    <table>
+                        <tr>
+                            <td>QUALIFICATION</td>
+                            <td colspan="2"></td>
+                            <td>S.No</td>
+                            <td></td>
+                            <td class="headers">Examination</td>
+                            <td class="headers">Board</td>
+                            <td class="headers">Percentage</td>
+                            <td class="headers">Year Of Passing</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td colspan="2"></td>
+                            <td>1</td>
+                            <td></td>
+                            <td>Class X</td>
+                            <td><input type="text" name="boardx"></td>
+                            <td><input type="text" name="percentagex"></td>
+                            <td><input type="text" name="yopx"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td colspan="2"></td>
+                            <td>2</td>
+                            <td></td>
+                            <td>Class XII</td>
+                            <td><input type="text" name="boardxii"></td>
+                            <td><input type="text" name="percentagexii"></td>
+                            <td><input type="text" name="yopxii"></td>
+                        <tr>
+
+                        <tr>
+                            <td></td>
+                            <td colspan="2"></td>
+                            <td>3</td>
+                            <td></td>
+                            <td>Graduation</td>
+                            <td><input type="text" name="boardgrad"></td>
+                            <td><input type="text" name="percentagegrad"></td>
+                            <td><input type="text" name="yopgrad"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td colspan="2"></td>
+                            <td>4</td>
+                            <td></td>
+                            <td>Master</td>
+                            <td><input type="text" name="boardmaster"></td>
+                            <td><input type="text" name="percentagemaster"></td>
+                            <td><input type="text" name="yopmaster"></td>
+
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td colspan="2"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="headers">(10 Char Max)</td>
+                            <td class="headers">(Upto 2 Decimal)</td>
+                            <td></td>
+                        </tr>
+                    </table>
+        </div>
+
+        <div id="rado">
+                    <label>Courses <br> Applied For</label>
+                    <label for="bca" style="text-align: center">BCA</label>
+                    <input type="radio" name="course" id="bca" style="margin-left: -50px;" >
+                    <label for="bcom" style="text-align: center">B.Com</label>
+                    <input type="radio" name="course" id="bcom" style="margin-left: -50px;">
+                    <label for="bsc" style="text-align: center">B.Sc</label>
+                    <input type="radio" name="course" id="bsc" style="margin-left: -50px;">
+                    <label for="ba" style="text-align: center">B.A</label>
+                    <input type="radio" name="course" id="ba" style="margin-left: -50px;">
+        </div>
+
+        <div style="margin-left: 40%;">
+                    <button type="submit"> <a href="Assignment2c.html">Submit</a> </button>
+                    <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>

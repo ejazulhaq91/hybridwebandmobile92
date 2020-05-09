@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+    background-color: cyan;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
+}
+li{
+    font-family: 'Courier New', Courier, monospace;
+    color: pink;
+    font-size: large;
+}

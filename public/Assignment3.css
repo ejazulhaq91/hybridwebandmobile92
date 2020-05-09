@@ -1,0 +1,133 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+#header li, p, a{
+                    display: inline-block;
+}
+#header{
+        background-color: royalblue;
+}
+#header ul{
+            margin-left: 20px;
+}
+#header li{
+            margin: 5px;
+}   
+#header p{
+            width: 50%;
+            text-align: center;
+            color: white;
+            margin: 10px auto;
+}
+.navmenu {
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+}
+ .navmenu img{
+    float: left;
+    width: 200px;
+    margin: auto 200px auto 75px;}
+.menu{
+    border-radius: 20px;
+    display: inline-block;
+    margin: auto 15px;
+    padding: 5px;
+}
+.navmenu a:link{
+    text-decoration: none;
+}
+
+.menu li{
+    list-style-type: none;
+    text-align: left;
+}
+.menu ul{
+    display: none;  
+}
+.menu:hover>ul
+{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        visibility: visible;  
+        margin: 0px auto;
+        padding: opx;
+}
+.menu:hover{
+    background-color: royalblue;
+    color: white;     
+}
+.menu li:hover{
+        background-color: royalblue;
+}
+
+.intro{
+    width: 75%;
+    margin: 10px auto;
+    text-align: center;
+}
+.desc{
+    width: 75%;
+    margin: 10px auto 10px auto;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.50em;
+    word-spacing: 0.75em;
+}
+
+.hmarquee{
+    background-color: royalblue;
+    padding: 5px auto 5px auto;
+    margin-top: 10px;
+    color: white;
+}
+
+.introinner img{
+    display: inline-block;
+    width: 180px;
+}
+
+.stats{
+    margin: 50px auto 25px auto;
+}
+
+.services li{
+    width: 300px;
+    display: inline-block;
+    margin: 10px 25px 10px 25px;
+    text-align: center;    
+    padding: 20px;
+    background-color: whitesmoke;
+    color: royalblue;
+}
+.images img{
+    width: 225px;
+}
+.images{
+    position: absolute;
+    left: 100px;
+}
+.upcoming li,h4{
+        display: inline-block;
+        color: royalblue;
+        padding: 10px;
+        background-color: whitesmoke;
+        margin: 10px; 
+}
+.upcoming{
+    display: flex;
+    margin-left: 50px;
+}
+.upcoming marquee{
+    width: 250px;
+}
+.parent{
+    width: 50%;
+}
+.upcoming h2{
+    display: flex;
+    justify-content: space-between;
+    color: royalblue;
+}
+
